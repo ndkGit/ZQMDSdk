@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ndk' => 'nidangkun@foxmail.com' }
-  s.source           = { :git => 'https://github.com/ndk/VPZQMD.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ndkGit/ZQMDSdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -42,6 +42,9 @@ TODO: Add long description of the pod here.
  s.dependency 'Reachability'
  s.dependency 'MJExtension', '~> 3.0.13'
  s.dependency 'AvoidCrash', '~> 2.5.2'
+ 
+ s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+ s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
   # s.resource_bundles = {
   #   'VPZQMD' => ['VPZQMD/Assets/*.png']
