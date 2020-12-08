@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ndk/VPZQMD'
+  s.homepage         = 'https://github.com/ndkGit/ZQMDSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ndk' => 'nidangkun@foxmail.com' }
@@ -43,8 +43,6 @@ TODO: Add long description of the pod here.
  s.dependency 'MJExtension', '~> 3.0.13'
  s.dependency 'AvoidCrash', '~> 2.5.2'
  
- s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
- s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
   # s.resource_bundles = {
   #   'VPZQMD' => ['VPZQMD/Assets/*.png']
