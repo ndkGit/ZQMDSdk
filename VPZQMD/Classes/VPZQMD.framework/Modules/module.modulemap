@@ -1,0 +1,6 @@
+framework module VPZQMD {
+  umbrella header "VPZQMD.h"
+
+  export *
+  module * { export * }
+}

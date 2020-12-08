@@ -24,6 +24,16 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DD9C23C7A9174D024CA6F5DA /* Pods_VPZQMD_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA1C5619741BD24612E1CDA /* Pods_VPZQMD_Tests.framework */; };
+		F38CA57B257F0F0E008058EF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA57A257F0F0E008058EF /* libc++.tbd */; };
+		F38CA57F257F0F26008058EF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA57E257F0F26008058EF /* libsqlite3.tbd */; };
+		F38CA583257F0F2F008058EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA582257F0F2F008058EF /* libz.tbd */; };
+		F38CA587257F0F3D008058EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA586257F0F3C008058EF /* CoreLocation.framework */; };
+		F38CA589257F0F54008058EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA588257F0F54008058EF /* OpenGLES.framework */; };
+		F38CA58B257F0F5F008058EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA58A257F0F5F008058EF /* QuartzCore.framework */; };
+		F38CA58D257F0F66008058EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA58C257F0F66008058EF /* Security.framework */; };
+		F38CA58F257F0F6D008058EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA58E257F0F6D008058EF /* SystemConfiguration.framework */; };
+		F38CA591257F0F73008058EF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA590257F0F73008058EF /* CoreTelephony.framework */; };
+		F38CA593257F0F7D008058EF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38CA592257F0F7C008058EF /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		139D23B88C172FA703A75F05 /* Pods-VPZQMD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPZQMD_Example.debug.xcconfig"; path = "Target Support Files/Pods-VPZQMD_Example/Pods-VPZQMD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CDB7C32316792757E1A4865 /* VPZQMD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VPZQMD.podspec; path = ../VPZQMD.podspec; sourceTree = "<group>"; };
+		2CDB7C32316792757E1A4865 /* VPZQMD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VPZQMD.podspec; path = ../VPZQMD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5064E92774858432FEA1BF7F /* Pods_VPZQMD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPZQMD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA1C5619741BD24612E1CDA /* Pods_VPZQMD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPZQMD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* VPZQMD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPZQMD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +71,22 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74EE1D36B308D422E9A42664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		74EE1D36B308D422E9A42664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		770F85420C0B9CE0D07A8EAB /* Pods-VPZQMD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPZQMD_Tests.release.xcconfig"; path = "Target Support Files/Pods-VPZQMD_Tests/Pods-VPZQMD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BCC08E827E88EEFA879A7C2 /* Pods-VPZQMD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPZQMD_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VPZQMD_Tests/Pods-VPZQMD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9690C1F61DB7A728239EDCFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9690C1F61DB7A728239EDCFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EC2047556568A943DFA11B51 /* Pods-VPZQMD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPZQMD_Example.release.xcconfig"; path = "Target Support Files/Pods-VPZQMD_Example/Pods-VPZQMD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F38CA57A257F0F0E008058EF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F38CA57E257F0F26008058EF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F38CA582257F0F2F008058EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F38CA586257F0F3C008058EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F38CA588257F0F54008058EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F38CA58A257F0F5F008058EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F38CA58C257F0F66008058EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F38CA58E257F0F6D008058EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F38CA590257F0F73008058EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F38CA592257F0F7C008058EF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38CA593257F0F7D008058EF /* AdSupport.framework in Frameworks */,
+				F38CA591257F0F73008058EF /* CoreTelephony.framework in Frameworks */,
+				F38CA58F257F0F6D008058EF /* SystemConfiguration.framework in Frameworks */,
+				F38CA58D257F0F66008058EF /* Security.framework in Frameworks */,
+				F38CA58B257F0F5F008058EF /* QuartzCore.framework in Frameworks */,
+				F38CA589257F0F54008058EF /* OpenGLES.framework in Frameworks */,
+				F38CA587257F0F3D008058EF /* CoreLocation.framework in Frameworks */,
+				F38CA583257F0F2F008058EF /* libz.tbd in Frameworks */,
+				F38CA57F257F0F26008058EF /* libsqlite3.tbd in Frameworks */,
+				F38CA57B257F0F0E008058EF /* libc++.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -103,7 +133,6 @@
 				7BCC08E827E88EEFA879A7C2 /* Pods-VPZQMD_Tests.debug.xcconfig */,
 				770F85420C0B9CE0D07A8EAB /* Pods-VPZQMD_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +160,16 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F38CA592257F0F7C008058EF /* AdSupport.framework */,
+				F38CA590257F0F73008058EF /* CoreTelephony.framework */,
+				F38CA58E257F0F6D008058EF /* SystemConfiguration.framework */,
+				F38CA58C257F0F66008058EF /* Security.framework */,
+				F38CA58A257F0F5F008058EF /* QuartzCore.framework */,
+				F38CA588257F0F54008058EF /* OpenGLES.framework */,
+				F38CA586257F0F3C008058EF /* CoreLocation.framework */,
+				F38CA582257F0F2F008058EF /* libz.tbd */,
+				F38CA57E257F0F26008058EF /* libsqlite3.tbd */,
+				F38CA57A257F0F0E008058EF /* libc++.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -209,6 +248,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3E500AD40FF4A56E959323D1 /* [CP] Embed Pods Frameworks */,
+				C502154A07BCC49E38487492 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +288,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ndk;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = B7GE75PTMZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +301,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +346,27 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-VPZQMD_Example/Pods-VPZQMD_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/VPZQMD/VPZQMD.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AvoidCrash/AvoidCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VPZQMD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvoidCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,6 +393,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C502154A07BCC49E38487492 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPZQMD_Example/Pods-VPZQMD_Example-resources.sh",
+				"${PODS_ROOT}/../../VPZQMD/Assets/VPZQMD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VPZQMD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPZQMD_Example/Pods-VPZQMD_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8A8458695E14C0C95138C36 /* [CP] Check Pods Manifest.lock */ = {
@@ -493,12 +571,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 139D23B88C172FA703A75F05 /* Pods-VPZQMD_Example.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7GE75PTMZ;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VPZQMD/VPZQMD-Prefix.pch";
 				INFOPLIST_FILE = "VPZQMD/VPZQMD-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VPZQMD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -509,12 +591,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC2047556568A943DFA11B51 /* Pods-VPZQMD_Example.release.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7GE75PTMZ;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VPZQMD/VPZQMD-Prefix.pch";
 				INFOPLIST_FILE = "VPZQMD/VPZQMD-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.VPZQMD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

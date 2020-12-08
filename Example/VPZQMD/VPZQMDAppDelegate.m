@@ -7,11 +7,24 @@
 //
 
 #import "VPZQMDAppDelegate.h"
-
+#import <VPZQMD/ZQMDDelegate.h>
 @implementation VPZQMDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController=[[UIViewController alloc]init];
+    self.window.backgroundColor = UIColor.whiteColor;
+    [self.window makeKeyAndVisible];
+    
+    ///这里传入 token
+    [VPZqmdSDK testLogin:^(BOOL result, UIViewController *homeVC) {
+        UINavigationController *baseNav = [[UINavigationController alloc]initWithRootViewController:homeVC];
+                    self.window.rootViewController = baseNav;
+    }];
+    
+
     // Override point for customization after application launch.
     return YES;
 }

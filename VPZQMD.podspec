@@ -29,9 +29,20 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.vendored_frameworks = 'VPZQMD/Classes/*.framework'
+   s.frameworks = 'UIKit', 'Foundation' , 'CoreMedia', 'AVFoundation', 'CFNetwork', 'Security'
+    s.resource     = 'VPZQMD/Assets/VPZQMD.bundle'
+ 
+ s.dependency 'AFNetworking','~>3.2.1'
+ s.dependency 'Masonry'
+ s.dependency 'IQKeyboardManager','~>6.5.5'
+ s.dependency 'MBProgressHUD', '~> 1.2.0'
+ s.dependency 'MJRefresh', '~> 3.3.1'
+ s.dependency 'SDWebImage','~>5.1.0'
+ s.dependency 'Reachability'
+ s.dependency 'MJExtension', '~> 3.0.13'
+ s.dependency 'AvoidCrash', '~> 2.5.2'
 
-  s.source_files = 'VPZQMD/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'VPZQMD' => ['VPZQMD/Assets/*.png']
   # }
