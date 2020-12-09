@@ -1,0 +1,22 @@
+[
+ {
+    "vcName": "ShopHomeVC",
+    "title": "码店",
+    "imageName": "icon_shop",
+    "nameType":"home"
+ },
+ {
+     "vcName": "BusinessStoreVC",
+     "title": "业务库",
+     "imageName": "icon_ywk",
+     "nameType":"graborder"
+
+ },
+ {
+     "vcName": "MessageVC",
+     "title": "消息",
+     "imageName": "icon_news",
+     "nameType":"personal"
+ },
+ ]
+

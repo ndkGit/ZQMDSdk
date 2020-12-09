@@ -1,0 +1,6 @@
+framework module Pods_VPZQMD_Example {
+  umbrella header "Pods-VPZQMD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
