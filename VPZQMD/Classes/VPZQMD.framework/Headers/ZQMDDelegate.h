@@ -1,7 +1,4 @@
 //
-//  直销通2.8.0
-//
-//  Created by jun on 16/3/14.
 //  Copyright © 2016年 jun. All rights reserved.
 //
 

@@ -18,12 +18,17 @@
     self.window.backgroundColor = UIColor.whiteColor;
     [self.window makeKeyAndVisible];
     
-    ///这里传入 token
-    [VPZqmdSDK testLogin:^(BOOL result, UIViewController *homeVC) {
-        UINavigationController *baseNav = [[UINavigationController alloc]initWithRootViewController:homeVC];
-                    self.window.rootViewController = baseNav;
-    }];
     
+    NSString *testToken = @"eyJhcHBJZCI6IldQXzAxIiwiY29udGVudCI6IlFTOXI3bFdaZnA2WkcrMmwxeWpUSXZGZkplbVpHZ1hIejdJc0t0bzJmNDJVLzJZWk5SSnAzZlJZdTU5c2pQd296WXVRV3ptbmRsWjJKQjlNUG83RE5aVGNPdXdMMW1Demw5SFBHaXdUS0lvdUJiYUpuRTJPRXRLcVZMRVNadnBhYTJZQ1RVeURTczhKSWpjNEVhLzM2MmpSTmJRbnVjTXRybUJReklHQTcwZHFTTFAxbkNML3U5WnhNUnpVSjcvMkMzRkZxSUp3WkkvVVVJOTZaME1kTVV4cGppSFFVaHF0YW13UzQ0SzB4eVlIR0dhOTV5UVBKTmdQaHFOdU5NVC9MK1NMeDRJTVRISXdrSUNVbHRTQW5jVE9CQUovT0w5MnRMbWEvdHU4MTM5b1J1MHNiby8xOXdiQU5UMUM5NFlDRDhDSFk3MUU5THZ5V2Zzb1R2RXo5TXRVVVNQb1JjN2MxRkF2RHYzdGU0Rzk0UUk3enNEM2g2OFc4MzR6QytRYXU3dmdPZVZIRzUvcVJFelNPakNGbjM3SlJkVldOenpmL1p0a0RNL01YV21FanE5dTNvaUppWE9FdE5YSlIyaGdlN2RickdrYXRrWWJGdnBxQTJXcTBSbVhXY3VBWXdqR2pnVTdMV1RSTmlKeWdWVHAzMjBSQ2ZLNG9nSW9CYWhFIn0";
+    
+    [VPZqmdSDK launchWithToken:testToken block:^(BOOL result, UIViewController *homeVC) {
+        
+        if (result) {
+            UINavigationController *baseNav = [[UINavigationController alloc]initWithRootViewController:homeVC];
+                                self.window.rootViewController = baseNav;
+        }
+        
+    }];
 
     // Override point for customization after application launch.
     return YES;

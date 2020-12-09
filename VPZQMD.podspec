@@ -44,6 +44,7 @@ TODO: Add long description of the pod here.
  s.dependency 'AvoidCrash', '~> 2.5.2'
  
 
+ s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # s.resource_bundles = {
   #   'VPZQMD' => ['VPZQMD/Assets/*.png']
   # }
