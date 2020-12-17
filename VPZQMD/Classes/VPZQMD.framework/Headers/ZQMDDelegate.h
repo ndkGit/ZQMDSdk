@@ -9,7 +9,7 @@ typedef void (^VPVoidBlock)(void);
 
 typedef void (^VPIndexBlock)(NSInteger index,BOOL result);
 
-typedef void (^ZQMDBlock)(BOOL result,UIViewController *homeVC);
+typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,UIViewController *homeVC);
 
 #define VPZqmdSDK       [ZQMDDelegate shareSingleton]
 
