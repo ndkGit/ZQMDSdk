@@ -18,9 +18,10 @@ typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,UIViewController 
 +(instancetype)shareSingleton;
 
 /**
+ *environment 1.生产， 2.测试
  *destination 0.店铺列表， 1 是创建店铺， 2业务库
  */
-- (void)launchWithToken:(NSString *)token destination:(NSUInteger)index block:(ZQMDBlock)block vcIndexBlock:(VPIndexBlock)indexBlock;
+- (void)launchWithToken:(NSString *)token environment:(NSUInteger)environment destination:(NSUInteger)index block:(ZQMDBlock)block vcIndexBlock:(VPIndexBlock)indexBlock;
 
 @property (nonatomic, copy) VPVoidBlock logoutBlock;
 
