@@ -22,7 +22,7 @@
     NSString *testToken = @"eyJhcHBJZCI6IldQXzAxIiwiY29udGVudCI6IlFTOXI3bFdaZnA2WkcrMmwxeWpUSXZGZkplbVpHZ1hIejdJc0t0bzJmNDJVLzJZWk5SSnAzZlJZdTU5c2pQd296WXVRV3ptbmRsWjJKQjlNUG83RE5aVGNPdXdMMW1Demw5SFBHaXdUS0lvdUJiYUpuRTJPRXRLcVZMRVNadnBhYTJZQ1RVeURTczhKSWpjNEVhLzM2MmpSTmJRbnVjTXRybUJReklHQTcwZHFTTFAxbkNML3U5WnhNUnpVSjcvMkMzRkZxSUp3WkkvVVVJOTZaME1kTVV4cGppSFFVaHF0YW13UzQ0SzB4eVlIR0dhOTV5UVBKTmdQaHFOdU5NVC9MK1NMeDRJTVRISXdrSUNVbHRTQW5jVE9CQUovT0w5MnRMbWEvdHU4MTM5b1J1MHNiby8xOXdiQU5UMUM5NFlDRDhDSFk3MUU5THZ5V2Zzb1R2RXo5TXRVVVNQb1JjN2MxRkF2RHYzdGU0Rzk0UUk3enNEM2g2OFc4MzR6QytRYXU3dmdPZVZIRzUvcVJFelNPakNGbjM3SlJkVldOenpmL1p0a0RNL01YV21FanE5dTNvaUppWE9FdE5YSlIyaGdlN2RickdrYXRrWWJGdnBxQTJXcTBSbVhXY3VBWXdqR2pnVTdMV1RSTmlKeWdWVHAzMjBSQ2ZLNG9nSW9CYWhFIn0";
     
 
-    [VPZqmdSDK launchWithToken:testToken environment:1 destination:1 block:^(BOOL result, NSDictionary *returnData, UIViewController *homeVC) {
+    [VPZqmdSDK launchWithToken:testToken environment:2 destination:0 block:^(BOOL result, NSDictionary *returnData, UIViewController *homeVC) {
         if (result) {
             UINavigationController *baseNav = [[UINavigationController alloc]initWithRootViewController:homeVC];
                self.window.rootViewController = baseNav;
@@ -31,9 +31,10 @@
         NSLog(@"index===>>>%ld",index);
 //        0.店铺列表， 1 是创建店铺， 2业务库，
 //        目前只有创建店铺和 店铺装修 点左上角返回和提交完成有返回值1,  装修页面提交 调用接口成功会返回yes,其他是false
-        
-        
+
+
     }];
+    
 
     // Override point for customization after application launch.
     return YES;
