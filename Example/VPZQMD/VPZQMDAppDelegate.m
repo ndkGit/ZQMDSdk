@@ -41,18 +41,7 @@
 //    }];
     
     VPZqmdSDK.shareBlock = ^(NSDictionary *resultDict) {
-//        @"type" : @"1",   //1小程序分享， 2.二维码图片， 3 海报图片
-//        @"shareParam" : @{
-//                @"title" : title,   //分享标题
-//                @"shareContent"  : //分享文字内容
-//                @"description" :  //分享描述
-//                @"shareImage" : //海报和二维码 是UIImage返回
-//                @"shareType" : @"1", //1.微信好友， 2，微信朋友圈 ， 3.QQ空间, 4.QQ好友
-//
-//                @"webpageUrl" : webpageUrl,    //小程序分享的url
-//                @"path" : path,       //小程序分享路径
-//            }
-//                         });
+//        {"type":"image","data":{"image":UIImage对象},"shareType":["wechat_contacts","wechat_discover"]}
         
         
         
