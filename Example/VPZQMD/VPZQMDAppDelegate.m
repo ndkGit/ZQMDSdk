@@ -19,7 +19,7 @@
     [self.window makeKeyAndVisible];
     
     
-    NSString *testToken = @"eyJhcHBJZCI6IldQXzAxIiwiY29udGVudCI6IlFTOXI3bFdaZnA2WkcrMmwxeWpUSXZGZkplbVpHZ1hIejdJc0t0bzJmNDJVLzJZWk5SSnAzZlJZdTU5c2pQd296WXVRV3ptbmRsWjJKQjlNUG83RE5aVGNPdXdMMW1Demw5SFBHaXdUS0lvdUJiYUpuRTJPRXRLcVZMRVNadnBhYTJZQ1RVeURTczhKSWpjNEVhLzM2MmpSTmJRbnVjTXRybUJReklHQTcwZHFTTFAxbkNML3U5WnhNUnpVSjcvMkMzRkZxSUp3WkkvVVVJOTZaME1kTVV4cGppSFFVaHF0YW13UzQ0SzB4eVlIR0dhOTV5UVBKTmdQaHFOdU5NVC9MK1NMeDRJTVRISXdrSUNVbHRTQW5jVE9CQUovT0w5MnRMbWEvdHU4MTM5b1J1MHNiby8xOXdiQU5UMUM5NFlDRDhDSFk3MUU5THZ5V2Zzb1R2RXo5TXRVVVNQb1JjN2MxRkF2RHYzdGU0Rzk0UUk3enNEM2g2OFc4MzR6QytRYXU3dmdPZVZIRzUvcVJFelNPakNGbjM3SlJkVldOenpmL1p0a0RNL01YV21FanE5dTNvaUppWE9FdE5YSlIyaGdlN2RickdrYXRrWWJGdnBxQTJXcTBSbVhXY3VBWXdqR2pnVTdMV1RSTmlKeWdWVHAzMjBSQ2ZLNG9nSW9CYWhFIn0";
+    NSString *testToken = @"eyJhcHBJZCI6IldQXzAxIiwiY29udGVudCI6ImQ2T0xmTjlFbDU3cGIwL3poUlU1Z0llWFNlWGlNN1l3NXcycm1kVWpMWTNpdmlJaktmUy9yK2xTSTB6NC9UU0VseUo2ektmUXE3YWw3aEM2enBtKzBuTWlaVXloRmV2SEJvRjFPTCtkWFkrNGlXVWVkYnNFUGsyOExUQWE1R1FMMjdKanRoL25iWGtqbmZRenUydFlWeVd2aTU1UnpZSHg4OTUrT1lHQVIydXFVbyt4NjJTZWdCNkhwQnRDWXJEV1h6dXdBanQ1Zmx5WThiUXZzY1I0eGxRZlMyK1Q5UmZ0cjRLOWZ4OXBEOWRaVnYzTTRlM0ZHWk03QVo4dk43cmF5eURUdStQR3EvemtzWU8wZUxDLzQ0TVB4U1hpYUxpbXdPY0diMmlXcDJGOTQrZTZJSTR6VzhXUWo4ZU4vZlF2V1dBeWh2Q3o3blg4eUNqUjQrbk5RRm4zWEpZaHR4b2RwV0tlTzEvay9na1ZKMWdER2h2d3NvMTA2QkphSWJBUVdLcUkwdmkwM2hZeTNoWmxDQWZxengvb21LN0dZeVZmQ3lFbmFRVHpkWEJYVklYVTdyWEdyWUFVZUUxZU4rb3dlRnlobG0zVTdxUDUyN0NqRFdoQXFicWszSndLVmNtREx2eEFEVGFhaTM3RkZybFNQWm1JRDBtRU12MXpGTitXIn0=";
     
 
     [VPZqmdSDK launchWithToken:testToken environment:2 destination:0 block:^(BOOL result, NSDictionary *returnData, UIViewController *homeVC) {
@@ -35,15 +35,12 @@
 
     }];
     
-//    [VPZqmdSDK testLogin:^(BOOL result, NSDictionary *returnData, UIViewController *homeVC) {
-//        UINavigationController *baseNav = [[UINavigationController alloc]initWithRootViewController:homeVC];
-//           self.window.rootViewController = baseNav;
-//    }];
+
     
     VPZqmdSDK.shareBlock = ^(NSDictionary *resultDict) {
 //        {"type":"image","data":{"image":UIImage对象},"shareType":["wechat_contacts","wechat_discover"]}
         
-        
+        NSString *text = @"";
         
     };
     
