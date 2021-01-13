@@ -43,11 +43,23 @@
         NSString *text = @"";
         
     };
+
     
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(share:) name:@"ADO_BROADCAST_THIRD_NODE" object:nil];
 
     // Override point for customization after application launch.
     return YES;
+}
+
+
+- (void)share:(NSNotification *)notification {
+    //    {"businessType":"share", "businessData": {"type":"image","data":{"image":uiimage对象},"shareType":["wechat_contacts","wechat_discover"]}}
+    
+    NSDictionary *shareDic = notification.userInfo;
+
+    
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
