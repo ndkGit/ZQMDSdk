@@ -11,7 +11,9 @@ typedef void (^VPDicionaryBlock)(NSDictionary *resultDict);
 
 typedef void (^VPIndexBlock)(NSInteger index,BOOL result);
 
-typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,UIViewController *homeVC);
+typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,NSString *encrptString);
+
+typedef void (^ZQMDLoginBlock)(BOOL result,UIViewController *homeVC);
 
 #define VPZqmdSDK       [ZQMDDelegate shareSingleton]
 
@@ -33,8 +35,7 @@ typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,UIViewController 
  */
 @property (nonatomic, copy) VPDicionaryBlock shareBlock;
 
--(void)testLogin:(ZQMDBlock)block;
-
+-(void)loginWithDictionary:(NSDictionary *)dataDic loginBlock:(ZQMDLoginBlock)loginBlock;
 
 
 
