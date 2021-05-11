@@ -11,7 +11,7 @@ typedef void (^VPDicionaryBlock)(NSDictionary *resultDict);
 
 typedef void (^VPIndexBlock)(NSInteger index,BOOL result);
 
-typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,NSString *encrptString);
+typedef void (^ZQMDBlock)(BOOL result,NSDictionary *returnData,UIViewController *homeVC);
 
 typedef void (^ZQMDLoginBlock)(BOOL result,UIViewController *homeVC);
 
@@ -35,7 +35,7 @@ typedef void (^ZQMDLoginBlock)(BOOL result,UIViewController *homeVC);
  */
 @property (nonatomic, copy) VPDicionaryBlock shareBlock;
 
--(void)loginWithDictionary:(NSDictionary *)dataDic loginBlock:(ZQMDLoginBlock)loginBlock;
+//-(void)loginWithDictionary:(NSDictionary *)dataDic loginBlock:(ZQMDLoginBlock)loginBlock;
 
 
 
